@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC366A91559C9DD00A0C676 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366A81559C9DD00A0C676 /* AVFoundation.framework */; };
+		EDC366AB1559C9DD00A0C676 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366AA1559C9DD00A0C676 /* CoreFoundation.framework */; };
+		EDC366AD1559C9DD00A0C676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366AC1559C9DD00A0C676 /* CoreGraphics.framework */; };
+		EDC366AF1559C9DD00A0C676 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366AE1559C9DD00A0C676 /* CoreImage.framework */; };
+		EDC366B11559C9DD00A0C676 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366B01559C9DD00A0C676 /* CoreMedia.framework */; };
+		EDC366B31559C9DD00A0C676 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366B21559C9DD00A0C676 /* CoreText.framework */; };
+		EDC366B51559C9DD00A0C676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366B41559C9DD00A0C676 /* Foundation.framework */; };
+		EDC366B71559C9DD00A0C676 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366B61559C9DD00A0C676 /* OpenGLES.framework */; };
+		EDC366B91559C9DD00A0C676 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366B81559C9DD00A0C676 /* QuartzCore.framework */; };
+		EDC366BB1559C9DD00A0C676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366BA1559C9DD00A0C676 /* UIKit.framework */; };
+		EDC366C11559C9DD00A0C676 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC366BF1559C9DD00A0C676 /* InfoPlist.strings */; };
+		EDC366C31559C9DD00A0C676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC366C21559C9DD00A0C676 /* main.m */; };
+		EDC366C81559C9DD00A0C676 /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC366C71559C9DD00A0C676 /* C4AppDelegate.m */; };
+		EDC366CA1559C9DD00A0C676 /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC366C91559C9DD00A0C676 /* C4WorkSpace.m */; };
+		EDC366CC1559C9DD00A0C676 /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC366CB1559C9DD00A0C676 /* C4Canvas.xib */; };
+		EDC366CF1559C9DD00A0C676 /* C4LogoiPad-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366CE1559C9DD00A0C676 /* C4LogoiPad-01.png */; };
+		EDC366D11559C9DD00A0C676 /* C4LogoiPad-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366D01559C9DD00A0C676 /* C4LogoiPad-02.png */; };
+		EDC366D31559C9DD00A0C676 /* C4LogoiPad-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366D21559C9DD00A0C676 /* C4LogoiPad-03.png */; };
+		EDC366D51559C9DD00A0C676 /* C4LogoiPad-04.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366D41559C9DD00A0C676 /* C4LogoiPad-04.png */; };
+		EDC366D71559C9DD00A0C676 /* C4LogoiPad-05.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366D61559C9DD00A0C676 /* C4LogoiPad-05.png */; };
+		EDC366D91559C9DD00A0C676 /* C4LogoiPad-06.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366D81559C9DD00A0C676 /* C4LogoiPad-06.png */; };
+		EDC366DB1559C9DD00A0C676 /* C4LogoiPad-07.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366DA1559C9DD00A0C676 /* C4LogoiPad-07.png */; };
+		EDC366DD1559C9DD00A0C676 /* C4LogoiPad-08.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366DC1559C9DD00A0C676 /* C4LogoiPad-08.png */; };
+		EDC366DF1559C9DD00A0C676 /* C4LogoiPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366DE1559C9DD00A0C676 /* C4LogoiPad-Landscape.png */; };
+		EDC366E11559C9DD00A0C676 /* C4LogoiPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC366E01559C9DD00A0C676 /* C4LogoiPad-Portrait.png */; };
+		EDC366FE1559C9DE00A0C676 /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC366FD1559C9DE00A0C676 /* libC4.a */; };
+		EDC367011559C9DE00A0C676 /* C4Loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = EDC367001559C9DE00A0C676 /* C4Loop.aif */; };
+		EDC367031559C9DE00A0C676 /* C4Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC367021559C9DE00A0C676 /* C4Sky.png */; };
+		EDC367051559C9DE00A0C676 /* C4Table.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC367041559C9DE00A0C676 /* C4Table.png */; };
+		EDC367071559C9DE00A0C676 /* inception.mov in Resources */ = {isa = PBXBuildFile; fileRef = EDC367061559C9DE00A0C676 /* inception.mov */; };
+		EDC3670F1559CA5800A0C676 /* MyMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3670E1559CA2200A0C676 /* MyMovie.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC366A41559C9DD00A0C676 /* movieDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC366A81559C9DD00A0C676 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EDC366AA1559C9DD00A0C676 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EDC366AC1559C9DD00A0C676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDC366AE1559C9DD00A0C676 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		EDC366B01559C9DD00A0C676 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EDC366B21559C9DD00A0C676 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EDC366B41559C9DD00A0C676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDC366B61559C9DD00A0C676 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EDC366B81559C9DD00A0C676 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EDC366BA1559C9DD00A0C676 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDC366BE1559C9DD00A0C676 /* movieDrag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "movieDrag-Info.plist"; sourceTree = "<group>"; };
+		EDC366C01559C9DD00A0C676 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC366C21559C9DD00A0C676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC366C41559C9DD00A0C676 /* movieDrag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "movieDrag-Prefix.pch"; sourceTree = "<group>"; };
+		EDC366C51559C9DD00A0C676 /* C4WorkSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
+		EDC366C61559C9DD00A0C676 /* C4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4AppDelegate.h; sourceTree = "<group>"; };
+		EDC366C71559C9DD00A0C676 /* C4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4AppDelegate.m; sourceTree = "<group>"; };
+		EDC366C91559C9DD00A0C676 /* C4WorkSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4WorkSpace.m; sourceTree = "<group>"; };
+		EDC366CB1559C9DD00A0C676 /* C4Canvas.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = C4Canvas.xib; path = XIB/C4Canvas.xib; sourceTree = "<group>"; };
+		EDC366CE1559C9DD00A0C676 /* C4LogoiPad-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-01.png"; path = "Logos/C4LogoiPad-01.png"; sourceTree = "<group>"; };
+		EDC366D01559C9DD00A0C676 /* C4LogoiPad-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-02.png"; path = "Logos/C4LogoiPad-02.png"; sourceTree = "<group>"; };
+		EDC366D21559C9DD00A0C676 /* C4LogoiPad-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-03.png"; path = "Logos/C4LogoiPad-03.png"; sourceTree = "<group>"; };
+		EDC366D41559C9DD00A0C676 /* C4LogoiPad-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-04.png"; path = "Logos/C4LogoiPad-04.png"; sourceTree = "<group>"; };
+		EDC366D61559C9DD00A0C676 /* C4LogoiPad-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-05.png"; path = "Logos/C4LogoiPad-05.png"; sourceTree = "<group>"; };
+		EDC366D81559C9DD00A0C676 /* C4LogoiPad-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-06.png"; path = "Logos/C4LogoiPad-06.png"; sourceTree = "<group>"; };
+		EDC366DA1559C9DD00A0C676 /* C4LogoiPad-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-07.png"; path = "Logos/C4LogoiPad-07.png"; sourceTree = "<group>"; };
+		EDC366DC1559C9DD00A0C676 /* C4LogoiPad-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-08.png"; path = "Logos/C4LogoiPad-08.png"; sourceTree = "<group>"; };
+		EDC366DE1559C9DD00A0C676 /* C4LogoiPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Landscape.png"; path = "Logos/C4LogoiPad-Landscape.png"; sourceTree = "<group>"; };
+		EDC366E01559C9DD00A0C676 /* C4LogoiPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-Portrait.png"; path = "Logos/C4LogoiPad-Portrait.png"; sourceTree = "<group>"; };
+		EDC366E31559C9DD00A0C676 /* C4CanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CanvasController.h; path = Headers/C4CanvasController.h; sourceTree = "<group>"; };
+		EDC366E41559C9DD00A0C676 /* C4Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Control.h; path = Headers/C4Control.h; sourceTree = "<group>"; };
+		EDC366E51559C9DD00A0C676 /* C4Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Defines.h; path = Headers/C4Defines.h; sourceTree = "<group>"; };
+		EDC366E61559C9DD00A0C676 /* C4EAGLES1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLES1Renderer.h; path = Headers/C4EAGLES1Renderer.h; sourceTree = "<group>"; };
+		EDC366E71559C9DD00A0C676 /* C4EAGLESRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLESRenderer.h; path = Headers/C4EAGLESRenderer.h; sourceTree = "<group>"; };
+		EDC366E81559C9DD00A0C676 /* C4EAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLLayer.h; path = Headers/C4EAGLLayer.h; sourceTree = "<group>"; };
+		EDC366E91559C9DD00A0C676 /* C4Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Font.h; path = Headers/C4Font.h; sourceTree = "<group>"; };
+		EDC366EA1559C9DD00A0C676 /* C4Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Foundation.h; path = Headers/C4Foundation.h; sourceTree = "<group>"; };
+		EDC366EB1559C9DD00A0C676 /* C4Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Gesture.h; path = Headers/C4Gesture.h; sourceTree = "<group>"; };
+		EDC366EC1559C9DD00A0C676 /* C4GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL.h; path = Headers/C4GL.h; sourceTree = "<group>"; };
+		EDC366ED1559C9DD00A0C676 /* C4GL1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL1Renderer.h; path = Headers/C4GL1Renderer.h; sourceTree = "<group>"; };
+		EDC366EE1559C9DD00A0C676 /* C4Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Image.h; path = Headers/C4Image.h; sourceTree = "<group>"; };
+		EDC366EF1559C9DD00A0C676 /* C4Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Label.h; path = Headers/C4Label.h; sourceTree = "<group>"; };
+		EDC366F01559C9DD00A0C676 /* C4Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Layer.h; path = Headers/C4Layer.h; sourceTree = "<group>"; };
+		EDC366F11559C9DD00A0C676 /* C4LayerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4LayerAnimation.h; path = Headers/C4LayerAnimation.h; sourceTree = "<group>"; };
+		EDC366F21559C9DD00A0C676 /* C4Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Math.h; path = Headers/C4Math.h; sourceTree = "<group>"; };
+		EDC366F31559C9DD00A0C676 /* C4Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Movie.h; path = Headers/C4Movie.h; sourceTree = "<group>"; };
+		EDC366F41559C9DD00A0C676 /* C4Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Notification.h; path = Headers/C4Notification.h; sourceTree = "<group>"; };
+		EDC366F51559C9DD00A0C676 /* C4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Object.h; path = Headers/C4Object.h; sourceTree = "<group>"; };
+		EDC366F61559C9DD00A0C676 /* C4PlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4PlayerLayer.h; path = Headers/C4PlayerLayer.h; sourceTree = "<group>"; };
+		EDC366F71559C9DD00A0C676 /* C4Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Sample.h; path = Headers/C4Sample.h; sourceTree = "<group>"; };
+		EDC366F81559C9DD00A0C676 /* C4Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Shape.h; path = Headers/C4Shape.h; sourceTree = "<group>"; };
+		EDC366F91559C9DD00A0C676 /* C4ShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ShapeLayer.h; path = Headers/C4ShapeLayer.h; sourceTree = "<group>"; };
+		EDC366FA1559C9DD00A0C676 /* C4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4View.h; path = Headers/C4View.h; sourceTree = "<group>"; };
+		EDC366FB1559C9DD00A0C676 /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
+		EDC366FC1559C9DD00A0C676 /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
+		EDC366FD1559C9DE00A0C676 /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
+		EDC367001559C9DE00A0C676 /* C4Loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = C4Loop.aif; path = Media/C4Loop.aif; sourceTree = "<group>"; };
+		EDC367021559C9DE00A0C676 /* C4Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Sky.png; path = Media/C4Sky.png; sourceTree = "<group>"; };
+		EDC367041559C9DE00A0C676 /* C4Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Table.png; path = Media/C4Table.png; sourceTree = "<group>"; };
+		EDC367061559C9DE00A0C676 /* inception.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = inception.mov; path = Media/inception.mov; sourceTree = "<group>"; };
+		EDC3670D1559CA2200A0C676 /* MyMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMovie.h; sourceTree = "<group>"; };
+		EDC3670E1559CA2200A0C676 /* MyMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMovie.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC366A11559C9DD00A0C676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC366A91559C9DD00A0C676 /* AVFoundation.framework in Frameworks */,
+				EDC366AB1559C9DD00A0C676 /* CoreFoundation.framework in Frameworks */,
+				EDC366AD1559C9DD00A0C676 /* CoreGraphics.framework in Frameworks */,
+				EDC366AF1559C9DD00A0C676 /* CoreImage.framework in Frameworks */,
+				EDC366B11559C9DD00A0C676 /* CoreMedia.framework in Frameworks */,
+				EDC366B31559C9DD00A0C676 /* CoreText.framework in Frameworks */,
+				EDC366B51559C9DD00A0C676 /* Foundation.framework in Frameworks */,
+				EDC366B71559C9DD00A0C676 /* OpenGLES.framework in Frameworks */,
+				EDC366B91559C9DD00A0C676 /* QuartzCore.framework in Frameworks */,
+				EDC366BB1559C9DD00A0C676 /* UIKit.framework in Frameworks */,
+				EDC366FE1559C9DE00A0C676 /* libC4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC366991559C9DD00A0C676 = {
+			isa = PBXGroup;
+			children = (
+				EDC366BC1559C9DD00A0C676 /* movieDrag */,
+				EDC366A71559C9DD00A0C676 /* Frameworks */,
+				EDC366A51559C9DD00A0C676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC366A51559C9DD00A0C676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC366A41559C9DD00A0C676 /* movieDrag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC366A71559C9DD00A0C676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC366A81559C9DD00A0C676 /* AVFoundation.framework */,
+				EDC366AA1559C9DD00A0C676 /* CoreFoundation.framework */,
+				EDC366AC1559C9DD00A0C676 /* CoreGraphics.framework */,
+				EDC366AE1559C9DD00A0C676 /* CoreImage.framework */,
+				EDC366B01559C9DD00A0C676 /* CoreMedia.framework */,
+				EDC366B21559C9DD00A0C676 /* CoreText.framework */,
+				EDC366B41559C9DD00A0C676 /* Foundation.framework */,
+				EDC366B61559C9DD00A0C676 /* OpenGLES.framework */,
+				EDC366B81559C9DD00A0C676 /* QuartzCore.framework */,
+				EDC366BA1559C9DD00A0C676 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC366BC1559C9DD00A0C676 /* movieDrag */ = {
+			isa = PBXGroup;
+			children = (
+				EDC366C91559C9DD00A0C676 /* C4WorkSpace.m */,
+				EDC3670D1559CA2200A0C676 /* MyMovie.h */,
+				EDC3670E1559CA2200A0C676 /* MyMovie.m */,
+				EDC366CD1559C9DD00A0C676 /* Logos */,
+				EDC366E21559C9DD00A0C676 /* Framework */,
+				EDC366FF1559C9DE00A0C676 /* Media */,
+				EDC366BD1559C9DD00A0C676 /* Supporting Files */,
+			);
+			path = movieDrag;
+			sourceTree = "<group>";
+		};
+		EDC366BD1559C9DD00A0C676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC366BE1559C9DD00A0C676 /* movieDrag-Info.plist */,
+				EDC366BF1559C9DD00A0C676 /* InfoPlist.strings */,
+				EDC366C21559C9DD00A0C676 /* main.m */,
+				EDC366C41559C9DD00A0C676 /* movieDrag-Prefix.pch */,
+				EDC366C51559C9DD00A0C676 /* C4WorkSpace.h */,
+				EDC366C61559C9DD00A0C676 /* C4AppDelegate.h */,
+				EDC366C71559C9DD00A0C676 /* C4AppDelegate.m */,
+				EDC366CB1559C9DD00A0C676 /* C4Canvas.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC366CD1559C9DD00A0C676 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				EDC366CE1559C9DD00A0C676 /* C4LogoiPad-01.png */,
+				EDC366D01559C9DD00A0C676 /* C4LogoiPad-02.png */,
+				EDC366D21559C9DD00A0C676 /* C4LogoiPad-03.png */,
+				EDC366D41559C9DD00A0C676 /* C4LogoiPad-04.png */,
+				EDC366D61559C9DD00A0C676 /* C4LogoiPad-05.png */,
+				EDC366D81559C9DD00A0C676 /* C4LogoiPad-06.png */,
+				EDC366DA1559C9DD00A0C676 /* C4LogoiPad-07.png */,
+				EDC366DC1559C9DD00A0C676 /* C4LogoiPad-08.png */,
+				EDC366DE1559C9DD00A0C676 /* C4LogoiPad-Landscape.png */,
+				EDC366E01559C9DD00A0C676 /* C4LogoiPad-Portrait.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		EDC366E21559C9DD00A0C676 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EDC366E31559C9DD00A0C676 /* C4CanvasController.h */,
+				EDC366E41559C9DD00A0C676 /* C4Control.h */,
+				EDC366E51559C9DD00A0C676 /* C4Defines.h */,
+				EDC366E61559C9DD00A0C676 /* C4EAGLES1Renderer.h */,
+				EDC366E71559C9DD00A0C676 /* C4EAGLESRenderer.h */,
+				EDC366E81559C9DD00A0C676 /* C4EAGLLayer.h */,
+				EDC366E91559C9DD00A0C676 /* C4Font.h */,
+				EDC366EA1559C9DD00A0C676 /* C4Foundation.h */,
+				EDC366EB1559C9DD00A0C676 /* C4Gesture.h */,
+				EDC366EC1559C9DD00A0C676 /* C4GL.h */,
+				EDC366ED1559C9DD00A0C676 /* C4GL1Renderer.h */,
+				EDC366EE1559C9DD00A0C676 /* C4Image.h */,
+				EDC366EF1559C9DD00A0C676 /* C4Label.h */,
+				EDC366F01559C9DD00A0C676 /* C4Layer.h */,
+				EDC366F11559C9DD00A0C676 /* C4LayerAnimation.h */,
+				EDC366F21559C9DD00A0C676 /* C4Math.h */,
+				EDC366F31559C9DD00A0C676 /* C4Movie.h */,
+				EDC366F41559C9DD00A0C676 /* C4Notification.h */,
+				EDC366F51559C9DD00A0C676 /* C4Object.h */,
+				EDC366F61559C9DD00A0C676 /* C4PlayerLayer.h */,
+				EDC366F71559C9DD00A0C676 /* C4Sample.h */,
+				EDC366F81559C9DD00A0C676 /* C4Shape.h */,
+				EDC366F91559C9DD00A0C676 /* C4ShapeLayer.h */,
+				EDC366FA1559C9DD00A0C676 /* C4View.h */,
+				EDC366FB1559C9DD00A0C676 /* C4Window.h */,
+				EDC366FC1559C9DD00A0C676 /* UITouch+C4Touch.h */,
+				EDC366FD1559C9DE00A0C676 /* libC4.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		EDC366FF1559C9DE00A0C676 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				EDC367001559C9DE00A0C676 /* C4Loop.aif */,
+				EDC367021559C9DE00A0C676 /* C4Sky.png */,
+				EDC367041559C9DE00A0C676 /* C4Table.png */,
+				EDC367061559C9DE00A0C676 /* inception.mov */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC366A31559C9DD00A0C676 /* movieDrag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC3670A1559C9DE00A0C676 /* Build configuration list for PBXNativeTarget "movieDrag" */;
+			buildPhases = (
+				EDC366A01559C9DD00A0C676 /* Sources */,
+				EDC366A11559C9DD00A0C676 /* Frameworks */,
+				EDC366A21559C9DD00A0C676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = movieDrag;
+			productName = movieDrag;
+			productReference = EDC366A41559C9DD00A0C676 /* movieDrag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC3669B1559C9DD00A0C676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = POSTFL;
+			};
+			buildConfigurationList = EDC3669E1559C9DD00A0C676 /* Build configuration list for PBXProject "movieDrag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDC366991559C9DD00A0C676;
+			productRefGroup = EDC366A51559C9DD00A0C676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC366A31559C9DD00A0C676 /* movieDrag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC366A21559C9DD00A0C676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC366C11559C9DD00A0C676 /* InfoPlist.strings in Resources */,
+				EDC366CC1559C9DD00A0C676 /* C4Canvas.xib in Resources */,
+				EDC366CF1559C9DD00A0C676 /* C4LogoiPad-01.png in Resources */,
+				EDC366D11559C9DD00A0C676 /* C4LogoiPad-02.png in Resources */,
+				EDC366D31559C9DD00A0C676 /* C4LogoiPad-03.png in Resources */,
+				EDC366D51559C9DD00A0C676 /* C4LogoiPad-04.png in Resources */,
+				EDC366D71559C9DD00A0C676 /* C4LogoiPad-05.png in Resources */,
+				EDC366D91559C9DD00A0C676 /* C4LogoiPad-06.png in Resources */,
+				EDC366DB1559C9DD00A0C676 /* C4LogoiPad-07.png in Resources */,
+				EDC366DD1559C9DD00A0C676 /* C4LogoiPad-08.png in Resources */,
+				EDC366DF1559C9DD00A0C676 /* C4LogoiPad-Landscape.png in Resources */,
+				EDC366E11559C9DD00A0C676 /* C4LogoiPad-Portrait.png in Resources */,
+				EDC367011559C9DE00A0C676 /* C4Loop.aif in Resources */,
+				EDC367031559C9DE00A0C676 /* C4Sky.png in Resources */,
+				EDC367051559C9DE00A0C676 /* C4Table.png in Resources */,
+				EDC367071559C9DE00A0C676 /* inception.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC366A01559C9DD00A0C676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC366C31559C9DD00A0C676 /* main.m in Sources */,
+				EDC366C81559C9DD00A0C676 /* C4AppDelegate.m in Sources */,
+				EDC366CA1559C9DD00A0C676 /* C4WorkSpace.m in Sources */,
+				EDC3670F1559CA5800A0C676 /* MyMovie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC366BF1559C9DD00A0C676 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC366C01559C9DD00A0C676 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC367081559C9DE00A0C676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDC367091559C9DE00A0C676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC3670B1559C9DE00A0C676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "movieDrag/movieDrag-Prefix.pch";
+				INFOPLIST_FILE = "movieDrag/movieDrag-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/movieDrag/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDC3670C1559C9DE00A0C676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "movieDrag/movieDrag-Prefix.pch";
+				INFOPLIST_FILE = "movieDrag/movieDrag-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/movieDrag/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC3669E1559C9DD00A0C676 /* Build configuration list for PBXProject "movieDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC367081559C9DE00A0C676 /* Debug */,
+				EDC367091559C9DE00A0C676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC3670A1559C9DE00A0C676 /* Build configuration list for PBXNativeTarget "movieDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3670B1559C9DE00A0C676 /* Debug */,
+				EDC3670C1559C9DE00A0C676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC3669B1559C9DD00A0C676 /* Project object */;
+}
